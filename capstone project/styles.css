@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+nav .container .brand {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+nav .container .search {
+    width: 100%;
+    border: 1px solid black;
+    padding: 5px 10px;
+    border-radius: 18px;
+    background-color: #ECEFF1;
+}
+nav .container .search input{
+    width: 90%;
+    border: none;
+    outline: none;
+    padding: 10;
+    background-color: #ECEFF1;
+}
+/* nav .container div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+} */
+nav .container div ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    /* gap:2rem; */
+    list-style-type:none;
+
+}
+header .container{
+    margin-top: 80px;
+}
+header .container .header-content .prodUCt-discount{
+   background: #FFB300;
+   width: fit-content;
+   padding: 3px 10px;
+}
+header .container .header-content  h4{
+   color:blue;
+}
+header .container .header-content  h1{
+   color: #FFB300
+}
+header .container .header-content  .description{
+   opacity: 0.7;
+}
+header .container .header-content  button{
+  background: #FFB300;
+  padding: 5PX 10px;
+  border: none;
+  font-weight: 600;
+}
+.header-img-block{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: start; */
+}
+.header-img-block{
+    padding: 1rem;
+}
+.header-img-block img{
+    width: 300px;
+}
+#Furnituresentury{
+    margin-top: 80px;
+
+}
+#Furnituresentury .container-fluid{
+    background-color:#FFB300;
+    padding: 2rem;
+    /* display: flex; */
+}
+#Furnituresentury .container-fluid .sencury-items{
+    /* background-color:#FFB300; */
+    display: flex;
+    justify-content: space-evenly;
+}
+#Furnituresentury .container-fluid .sentury21st{
+    color: white;
+    display: flex;
+flex-direction: column;
+    /* justify-content: center; */
+    align-items: end;
+    margin-top: 10%;
+}
+#Furnituresentury .container-fluid .sentury21st h2{
+    text-align: center;
+}
+#Furnituresentury .container-fluid .sencury-items .sentury-item{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+    background: #fff;
+    border-radius: 15px;
+    /* width: 150px; */
+    margin: 1rem;
+}
+#Furnituresentury .container-fluid .sencury-items .sentury-item img{
+    /* background: #fff; */
+     width: 150px;
+    object-fit: contain;
+}
+#Furnituresentury .container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#Furnituresentury .container .about-senturyfurniture{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(175, 183, 185);
+    padding: 2rem;
+    border-radius: 25px;
+    position: relative;
+    z-index: 1;
+
+}
+#Furnituresentury .container .about-senturyfurniture h3{
+    background-color: rgb(35, 200, 255);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+#Furnituresentury .container .about-senturyfurniture img{
+    width: 300px;
+}
+#Furnituresentury .container .about-senturyfurniture .chairsmat{
+    position: absolute;
+    bottom: 10px;
+    left: 40px;
+    width: 90%;
+    height: 110px;
+    z-index: -1;
+    background-color: #cfcfcf;  
+      margin:0  1rem;
+      border-radius: 15px;
+
+}
+#Furnituresentury .container .tables-category{
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin-top: 50px;
+    /* gap: 1rem; */
+
+}
+#Furnituresentury .container .tables-category .resting-cushions,#Furnituresentury .container .tables-category .study-tables{
+    width: calc(100%/2 - 80px);
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    box-shadow:  0px 0px 4px #cfcfcf;
+   padding: 2rem;
+
+}
+#Furnituresentury .container .tables-category img{
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #FFB300;
+}
+#Furnituresentury .container .tables-category a{
+    text-decoration: none;
+    font-size: 16px;
+}
+#Furnituresentury .container .tables-category h4{
+    color: #f6405e;
+    font-size: 28px;
+    margin: 0;
+    padding: 0s;
+
+}
+#Furnituresentury .container .tables-category p{
+    font-size: 32px;
+    margin: 0;
+    padding: 0;
+}
+#Furnituresentury .container .tables-category button{
+    margin-top: 15px;
+    padding: 2px 10px;
+    border-radius: 5px;
+    background-color: #FFB300;
+    border: none;
+    color: white;
+    font-weight: 500;
+}
+#Explore-collections{
+    margin-top: 50px;
+    background-color: rgb(68, 19, 19);
+    padding: 1rem;
+    color: white;
+}
+
+#Explore-collections .container{
+    margin-top: 50px;
+}
+#Explore-collections .collection{
+    display: flex;
+    position: relative;
+    height: 450px;
+}
+#Explore-collections .collection img{
+    background-color: white;
+    box-shadow: 0 0 8px #f6405e;
+}
+#Explore-collections .collection .book-shelf{
+    position:absolute;
+    top: 20px;
+    left: 40px;
+}
+#Explore-collections .collection .book-shelf img{
+    width: 120px;
+    height: 170px;
+    border-radius: 20px;
+}
+#Explore-collections .collection .ethninque-chair{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+}
+#Explore-collections .collection .ethninque-chair img{
+    width: 300px;
+    height: 240px;
+   border-radius: 20px;
+
+}
+#Explore-collections .collection .comfartable-chair{
+    position:absolute;
+    bottom: 30px;
+    left: 50px;
+}
+#Explore-collections .collection .comfartable-chair img{
+    width: 250px;
+    height: 190px;
+   border-radius: 20px;
+
+}
+#Explore-collections .collection .sitting-chair{
+    position:absolute;
+    bottom: 30px;
+    right: 40px;
+}
+#Explore-collections .collection .sitting-chair img{
+    width: 150px;
+    height: 130px;
+   border-radius: 20px;
+}
+#Explore-collections .explore-collection-document{
+    margin-top: 20px;
+    margin-left: 10%;
+}
+#Explore-collections .explore-collection-document h2 span{
+    color: #FFB300;
+}
+
+#Explore-collections .explore-collection-document ul{
+    list-style-type: none;
+    padding: 0;
+    
+}
+#Explore-collections .explore-collection-document ul li{
+    margin-top: 8px;
+}
+#Explore-collections .explore-collection-document ul li img{
+    width: 20px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#Explore-collections .explore-collection-document button{
+    border: none;
+    padding: 3px 10px;
+    border-radius: 8px;
+    background-color: #FFB300;
+    font-weight: 600;
+    color: white;
+}
+
+#higest-rated-products{
+    margin-top: 50px;
+}
+#higest-rated-products .container .header{
+    text-align: center;
+}
+#higest-rated-products .container .header h2 span{
+    color: #FFB300;
+}
+#higest-rated-products .container .header p{
+    color: #4d4d4d;
+}
+#higest-rated-products .container .higest-rated-products-list .nav-pills{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#higest-rated-products .container .higest-rated-products-list  .products-lists{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 30px;
+}
+#higest-rated-products .container .higest-rated-products-list  .products-lists .card{
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 0 4px #ffb300;
+    padding-bottom: 0;
+}
+#higest-rated-products .container .higest-rated-products-list  img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    padding: 1rem;
+}
+#higest-rated-products .container .higest-rated-products-list .product-price{
+    color: rgb(59, 122, 231);
+}
+#higest-rated-products .container .higest-rated-products-list .product-price span{
+    color: rgb(58, 182, 68);
+    font-size: 12px;
+
+}
+#higest-rated-products .container .higest-rated-products-list  p i{
+    color: #ffb300;
+    
+}
+#higest-rated-products .furniture-soafa{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #ddd7ce;
+    border-radius: 25px;
+    height: 400px;
+}
+#higest-rated-products .furniture-soafa .content h2{
+   font-size: 38px;
+   padding: 0;
+   margin:0px;
+   color: #ffb300;
+   font-weight: 700;
+}
+#higest-rated-products .furniture-soafa .content p{
+   font-size: 38px;
+   padding: 0;
+   margin:0px;
+}
+#higest-rated-products .furniture-soafa .content button{
+   padding: 8px 15px;
+   border-radius: 8px;
+   border: none;
+   font-size: 15px;
+   font-weight: 600;
+   background-color: #2C3E50;
+   color: white;
+   margin-top: 15px;
+}
+#higest-rated-products .furniture-soafa img{
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #2C3E50; */
+    border-radius: 25px;
+    /* height: 400px; */
+  /* box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5); */
+    /* background-color: white; */
+}
+#customers-reviews{
+    padding: 1rem;
+    margin-top: 50px;
+    text-align: center;
+} 
+#customers-reviews h1 span{
+    color:#ffb300;
+} 
+#customers-reviews  p{
+    margin-bottom: 40px;
+} 
+#customers-reviews .customers-reviews{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2rem;
+}
+#customers-reviews .customers-reviews .review{
+    width: 400px;
+   padding: 1rem;
+   display: flex;
+   gap:25px;
+   box-shadow: 0 0 4px #9d9d9d;
+   border-radius: 11px;
+   transition: transform 0.5s ease-in-out;
+} 
+#customers-reviews .customers-reviews .review:hover{
+   transform: translateY(-20px);
+   border: none;
+   box-shadow:0 0 4px  #ffb300;
+} 
+#customers-reviews .customers-reviews .review img{
+   width: 70px;
+   height: 70px;
+   border-radius: 50%;
+   box-shadow: 0 0 4px #ffb300;
+} 
+#customers-reviews .customers-reviews .review .review-text i{
+   color: #ffb300;
+} 
+#blogs-section{
+    margin: 40px 0;
+}
+#blogs-section .blogs{
+   display: flex;
+   justify-content: space-around;
+   margin-top: 50px;
+   
+}
+#blogs-section .card{
+    width: 21rem;
+    padding: 1rem;
+    background-color: #ffb30044;
+}
+#blogs-section .card img{
+    height: 250px;
+}
+.Beside-collections{
+    background-color: #ffb30044;
+    margin-top: 50px;
+    padding: 50px ;
+
+}
+.Beside-collections {
+    background-color: #ffb30044;
+    margin-top: 50px;
+    padding: 50px ;
+
+}
+.Beside-collections .Beside-collections-content{
+ margin: 50px;
+
+}
+
+
+.Beside-collections .collections{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Beside-collections .collections .item img{
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    background-color: white;
+    box-shadow:  0 0 4px ;
+    margin: 5px;
+    border-radius: 50%;
+    padding: 8px;
+    object-fit: contain;
+    transition: transform 0.5s ease-in-out;
+}
+.Beside-collections .collections .item img:hover{
+    /* transform: rotate3d(1, 0, 0, 30deg); */
+    transform: scale(0.8);
+}
+footer .container .brand span{
+    font-weight: 700;
+    font-size: 25px;
+}
+footer .container .description{
+    margin: 10px 0;
+    color: #4d4d4d;
+    
+}
+footer .container .brand .searchbox{
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 22px;
+    background-color:#fb3004 ;
+    margin-bottom: 15px;
+    text-align: left;
+}
+footer .container .brand .searchbox  input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+/* this css for extrapages  */
+.indiviaulproducts{
+    margin: 30px;
+}
+.indiviaulproducts .product-images .side-images img{
+    width: 120px;
+    height: 110px;
+    object-fit: cover;
+    margin-top: 15px;
+    background-color: #ffb300;
+    padding: 10px 0;
+    border-radius: 20px;    
+}
+.indiviaulproducts .product-about{
+    position: relative;
+    height: 100%;
+
+}
+.indiviaulproducts .product-about::before{
+    content: "";
+    width: 3px;
+    height: 100%;
+    background-color: red;
+    position: absolute;
+    left: 0;
+    top: 0px;
+
+}
+.indiviaulproducts .product-images .product-image{
+    position: relative;
+}
+.indiviaulproducts .product-images .product-image #img1{
+    width: 100%;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+     margin-top: 15px;
+     transition: transform 0.5s ease-in-out;
+     border-radius: 28px;
+}
+.indiviaulproducts .product-images .product-image #img2{
+     width: 100%;
+     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+     margin-top: 15px;
+     transition: transform 0.5s ease-in-out;
+     border-radius: 28px;
+     position: absolute;
+     top: 0;
+     left: 0;
+     z-index: -1;
+}
+
+/* .indiviaulproducts .product-images .product-image #img1:hover{
+         transform: rotate3d(0, 2, 1, 30deg);
+         transform: scale(1);
+
+} */
+.indiviaulproducts .product-about{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.indiviaulproducts .product-about h3{
+    font-size: 45px;
+}
+.indiviaulproducts .product-about .price-with-discount{
+   display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.indiviaulproducts .product-about .price-with-discount h4{
+   color: #b4451c;
+}
+.indiviaulproducts .product-about .product-features {
+    display: flex;
+    justify-content: space-around;
+}
+.indiviaulproducts .product-about .product-features .features {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.indiviaulproducts .product-about .product-features .features i{
+    font-size: 30px;
+    color: #ffb300;
+}
+.indiviaulproducts .colors-row .colors{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 5px; */
+
+}
+.indiviaulproducts .colors-row .colors .color{
+    width: 50px;
+    height: 50px;
+    background-color: #fb3004;
+    border-radius: 50%;
+}
+.indiviaulproducts .colors-row .colors .color1{
+    background-color: #000000;
+}
+.indiviaulproducts .colors-row .colors .color2{
+    background-color: #9f8019;
+}
+.indiviaulproducts .colors-row .colors .color3{
+    background-color: #2eb719;
+}
+.indiviaulproducts .colors-row .colors .color4{
+    background-color: #2638d2;
+}
+
+.indiviaulproducts .colors-row .colors .color5{
+    background-color: #d82adb;
+}
+.indiviaulproducts .colors-row .colors .color6{
+    background-color: #433417;
+}
+
+.indiviaulproducts .colors-row .colors .color7{
+    background-color: #620062;
+}
+
+/* second page css */
+
+.indiviaulproducts .secondpage{
+    margin-top: 50px;
+}
+.indiviaulproducts .secondpage .product-about .product-details{
+    padding: 20px 0 0 20px;
+    
+}
+.indiviaulproducts .thirdpage{
+    margin-top: 50px;
+}
+.indiviaulproducts .thirdpage .product-about .About-item{
+    padding: 20px 0 0 20px;
+
+}
+.indiviaulproducts .thirdpage .product-about .About-item ul li{
+    margin-top: 7px;
+        
+}

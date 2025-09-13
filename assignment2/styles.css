@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    text-align: center;
+}
+.moviesgallery{
+    margin-top: 1rem;
+    /* padding: 2rem; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-evenly;
+    /* gap: rem; */
+    
+}
+.moviesgallery .movie{
+    margin-top: 2rem;
+}
+.moviesgallery .movie img{
+    width: 300px;
+}
+
+@media screen and (max-width:1020px) {
+    .moviesgallery .movie  img{
+    width: 200px;
+}
+
+}
+@media screen and (max-width:720px) {
+    .moviesgallery .movie  img{
+    width: 150px;
+}
+
+}
+@media screen and (max-width:600px) {
+    .moviesgallery .movie  img{
+    width: 120px;
+}
+
+}
+@media screen and (max-width:450px) {
+    .moviesgallery .movie  img{
+    width: 80px;
+}
+
+}
+/* individual pages styling start here */
